@@ -1,16 +1,10 @@
-// type Repository = {
-//   id: number;
-//   name: string;
-//   full_name: string;
-// }
+import Image from "next/image";
 
 
-// export default async function Page() {
-//   const res = await fetch("https://api.github.com/repos/vercel/next.js")
-//   const data: Repository = await res.json();
-//   return <h1>{data.name}</h1>
-// }
-
-export default function Page(){
-  return <h1> Home </h1>
+export default function Home() {
+  return (
+    <div>
+        <h1>Hello World!</h1>
+    </div>
+  )
 }
