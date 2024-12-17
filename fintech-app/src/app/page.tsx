@@ -1,8 +1,12 @@
 
-export default function Home() {
-  return (
-    <div>
-        <h1>Hello World!</h1>
-    </div>
-  )
+import Header from "@/app/components/Header"
+
+export default function Profile(){
+
+    return(
+        <>
+        <Header />
+      
+        </>
+    )
 }
