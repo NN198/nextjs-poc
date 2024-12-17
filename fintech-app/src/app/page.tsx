@@ -6,7 +6,6 @@ export default function Profile(){
     return(
         <>
         <Header />
-      
         </>
     )
 }
